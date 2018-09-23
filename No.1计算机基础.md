@@ -44,7 +44,34 @@ FREAX，英文含义是怪诞的、怪物、异想天开
 ▲避免令人困惑的用户界面   
 ▲配置数据存储在文本中   
 
+#杂项  
+--
+systemctl restart network.service：重启网卡  
+cat /etc/centos-release:查看系统7版本   
+lsb_release -a:查看系统6版本  
+nano /etc/motd:改登录前提示信息  
+nano /etc/isuue：改登录后提示信息  
+rpm -qa|wc -l：查看包的数量  
+PS1="\[\e[1;33m\][\u@\h \W]\$\[\e[0m\]"  ：黄色高亮  
+PS1="\[\e[1;32m\][\u@\h \W]\$\[\e[0m\]"  ：绿色高亮  
+PS1：修改路径__/etc/profile.d/env.sh
 
+#命令汇总  
+--
+init 3/5/6/0:图关/图开/重启/关机  
+halt:（6关机且断电）（7关机不断电）   
+who am i:当前登录用户、终端、时间  
+tty:查看当前终端 &nbsp;&nbsp;&nbsp; chvt（1-6）：tty终端切换  
+id -u：当前用户权限   
+uname -r：内核版本 &nbsp;&nbsp;&nbsp;   
+lscpu：CPU详情    
+free：内存使用情况          
+lsblk：硬盘、光驱信息       
+mii-tool ens33:网卡状态   
+du -sh /boot:boot目录大小   
+enable：内部命令汇总&nbsp;&nbsp;&nbsp;-n：显示所有禁用&nbsp;&nbsp;&nbsp;-n *：禁用  
+which：查看某个外部命令路径   
+whereis：查看某个外部命令路径及对应帮助文档
 
 
 
