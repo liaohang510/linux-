@@ -58,20 +58,20 @@ PS1：修改路径__/etc/profile.d/env.sh
 
 #命令汇总  
 --
-init 3/5/6/0:图关/图开/重启/关机  
-halt:（6关机且断电）（7关机不断电）   
-who am i:当前登录用户、终端、时间  
-tty:查看当前终端 &nbsp;&nbsp;&nbsp; chvt（1-6）：tty终端切换  
+init 3/5/6/0：图关/图开/重启/关机  
+halt：（6关机且断电）（7关机不断电）   
+who am i：当前登录用户、终端、时间  
+tty：查看当前终端 &nbsp;&nbsp;&nbsp; chvt（1-6）：tty终端切换  
 id -u：当前用户权限   
 uname -r：内核版本 &nbsp;&nbsp;&nbsp;   
 lscpu：CPU详情    
 free：内存使用情况          
 lsblk：硬盘、光驱信息       
-mii-tool ens33:网卡状态   
-du -sh /boot:boot目录大小   
+mii-tool ens33：网卡状态   
+du -sh /boot：boot目录大小   
 enable：内部命令汇总&nbsp;&nbsp;&nbsp;-n：显示所有禁用&nbsp;&nbsp;&nbsp;-n *：禁用  
 which：查看某个外部命令路径   
 whereis：查看某个外部命令路径及对应帮助文档
 
-
+ 
 
